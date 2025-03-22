@@ -1,0 +1,12 @@
+vendor/*
+node_modules/*
+.idea/*
+public/storage/*
+public/vendor/*
+public/js/*
+.env/*
+node_modules
+.scannerwork/*
+.phpunit.cache/*
+node_modules/*
+.vscode/*
