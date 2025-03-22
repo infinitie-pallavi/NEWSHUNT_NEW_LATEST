@@ -31,7 +31,6 @@
     <meta property="og:site_name" content="@yield('title') || {{ config('app.name') }}">
     <meta property="og:type" content="object">
     <meta property="og:title" content="title">
-
     <meta property="og:description" content="Desc">
     
     <!-- CSS files -->
