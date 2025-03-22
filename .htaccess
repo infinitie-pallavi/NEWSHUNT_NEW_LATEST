@@ -1,0 +1,11 @@
+php_value upload_max_filesize 500M
+php_value memory_limit 500M
+php_value post_max_size 500M
+php_value max_execution_time 500
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^vendor/ - [L,NC]
+RewriteRule ^(.*)$ public/$1 [L]
+
+</IfModule>
